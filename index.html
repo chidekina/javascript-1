@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estruturas Condicionais</title>
+</head>
+
+<body>
+    <main>
+        <div>
+            <h2>1. Problema: Verifique se um número é positivo, negativo ou zero.</h2>
+            <h4>Descrição: Escreva um programa que solicite ao usuário um número e, em seguida, informe se o número é
+                positivo, negativo ou zero.</h4>
+            <input type="number" id="tipoDeNumero" placeholder="Digite um numero">
+            <button id="btn_tipoDeNumero">Checar numero</button>
+            <div id="resultado_tipoDeNumero"></div>
+        </div>
+
+        <div>
+            <h2>2. Problema: Classificar um triângulo.</h2>
+            <h4>Descrição: Crie um programa que peça ao usuário para inserir os comprimentos dos três lados de um
+                triângulo e determine se é equilátero, isósceles ou escaleno.</h4>
+            <input type="number" id="ladoA" min="1" placeholder="Digite o primeiro lado">
+            <input type="number" id="ladoB" min="1" placeholder="Digite o segundo lado">
+            <input type="number" id="ladoC" min="1" placeholder="Digite o terceiro lado">
+            <button id="btn_tipoDeTriangulo">Checar triangulo</button>
+            <div id="resultado_tipoDeTriangulo"></div>
+        </div>
+
+        <div>
+            <h2>3. Problema: Verificar se um ano é bissexto.</h2>
+            <h4>Descrição: Escreva um programa que solicite ao usuário um ano e informe se ele é bissexto ou não.</h4>
+            <input type="number" id="anoBissexto" placeholder="Digite um ano">
+            <button id="btn_anoBissexto">Checar ano</button>
+            <div id="resultado_anoBissexto"></div>
+        </div>
+
+        <div>
+            <h2>4. Problema: Determinar o maior entre três números.</h2>
+            <h4>Descrição: Desenvolva um programa que peça três números ao usuário e determine qual é o maior deles.
+            </h4>
+            <input type="number" id="numero1" placeholder="Digite o primeiro numero">
+            <input type="number" id="numero2" placeholder="Digite o segundo numero">
+            <input type="number" id="numero3" placeholder="Digite o terceiro numero">
+            <button id="btn_maiorNumero">Checar maior numero</button>
+            <div id="resultado_maiorNumero"></div>
+        </div>
+
+        <div>
+            <h2>5. Problema: Verificar se um número é par ou ímpar.</h2>
+            <h4>Descrição: Crie um programa que solicite um número ao usuário e informe se é par ou ímpar.</h4>
+            <input type="number" id="parOuImpar" placeholder="Digite um numero">
+            <button id="btn_parOuImpar">Checar numero</button>
+            <div id="resultado_parOuImpar"></div>
+        </div>
+
+        <div>
+            <h2>6. Problema: Calcular o preço final de um produto com base na quantidade comprada.</h2>
+            <h4>Descrição: Escreva um programa que solicite ao usuário o preço de um produto e a quantidade comprada. Se a quantidade comprada for maior que 10, aplique um desconto de 10%. Caso contrário, não aplique desconto.</h4>
+            <input type="number" step="0.01" id="preco" min="0.01" placeholder="Digite o preco">
+            <input type="number" id="quantidade" placeholder="Digite o quantidade">
+            <button id="btn__precoTotal">Checar numero</button>
+            <div id="resultado_precoTotal">
+                <h5>Desconto: </h5>
+                <h5>Preco unitario: </h5>
+                <h5>Total: </h5>
+            </div>
+        </div>
+
+        <div>
+            <h2>7. Problema: Converter uma nota em conceito.</h2>
+            <h4>Descrição: Crie um programa que peça ao usuário para inserir uma nota de 0 a 100 e, em seguida, atribua um conceito (A entre 100 e 80, B entre 79 e 60, C entre 59 e 40, D entre 39 e 20 ou F abaixo de 20) com base na faixa de notas.</h4>
+            <input type="number" id="notaConceito" placeholder="Digite sua nota">
+            <button id="btn__notaConceito">Checar letra</button>
+            <div id="resultado_notaConceito">
+            </div>
+        </div>
+
+        <div>
+            <h2>8. Problema: Verificar se uma letra é vogal ou consoante.</h2>
+            <h4>Descrição: Desenvolva um programa que solicite ao usuário uma letra e informe se é uma vogal ou consoante.</h4>
+            <input type="text" maxlength="1" id="letra" placeholder="Digite uma letra">
+            <button id="btn__vogalOuConsoante">Checar letra</button>
+            <div id="resultado_vogalOuConsoante">
+            </div>
+        </div>
+
+        <div>
+            <h2>9. Problema: Determinar o dia da semana com base em um número.</h2>
+            <h4>Descrição: Escreva um programa que solicite ao usuário um número de 1 a 7 e informe o dia correspondente da semana (por exemplo, 1 para segunda-feira, 2 para terça-feira, etc.).</h4>
+            <input type="number" id="diaDaSemana" placeholder="Digite um número">
+            <button id="btn__diaDaSemana">Checar dia da semana</button>
+            <div id="resultado_diaDaSemana">
+            </div>
+        </div>
+
+        <div>
+            <h2>10. Problema: Calcular o imposto de renda de uma pessoa com base em sua renda anual.</h2>
+            <h4>Descrição: Crie um programa que peça à pessoa sua renda anual e, em seguida, calcule o imposto de renda de acordo com a tabela de alíquotas do imposto de renda.</h4>
+            <input type="number" id="impostoDeRenda" placeholder="Digite sua renda anual">
+            <button id="btn__impostoDeRenda">Checar IR</button>
+            <div id="resultado_impostoDeRenda">
+                <h5>Alíquota: </h5>
+                <h5>Dedução: </h5>
+                <h5>Total: </h5>
+            </div>
+        </div>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
+
